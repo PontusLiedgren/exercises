@@ -42,7 +42,19 @@ def divisible_by_five(number_input):
     print(if_divisible.is_integer())
     return number_input
 # Ta bort kommentaren nedan för att testa funktionen
-#user_number_input = int(input("Säg ett nummer: "))
-#divisible_by_five(user_number_input)
+# user_number_input = int(input("Säg ett nummer: "))
+# divisible_by_five(user_number_input)
 
 ##########################################
+# uppgift-8
+my_list = ["tokyo", "madrid", "stockholm"]
+def contains(my_list, string):
+    if string in my_list:
+        return True
+    if string not in my_list:
+        return False
+# print(contains(my_list, "tokyo"))
+# print(contains(my_list, "madrid"))
+# print(contains(my_list, "baltikum"))
+
+###########################################
