@@ -38,11 +38,13 @@ def questionify(user_input):
 
 # function
 def divisible_by_five(number_input):
-    if_divisible = number_input/5
-    print(if_divisible.is_integer())
-    return number_input
+    if number_input % 2 == 0 and number_input % 5 == 0:
+        return True
+    else:
+        return False
 # Ta bort kommentaren nedan för att testa funktionen
 #user_number_input = int(input("Säg ett nummer: "))
 #divisible_by_five(user_number_input)
 
 ##########################################
+print(divisible_by_five(20))
