@@ -45,11 +45,10 @@ def divisible_by_five(number_input):
 # Ta bort kommentaren nedan för att testa funktionen
 # user_number_input = int(input("Säg ett nummer: "))
 # divisible_by_five(user_number_input)
-
-##########################################
-<<<<<<< HEAD
 print(divisible_by_five(20))
-=======
+##########################################
+
+
 # uppgift-8
 my_list = ["tokyo", "madrid", "stockholm"]
 def contains(my_list, string):
@@ -62,4 +61,3 @@ def contains(my_list, string):
 # print(contains(my_list, "baltikum"))
 
 ###########################################
->>>>>>> e608ae0bd137fb1911676eda052b0bd3af1c94f8
